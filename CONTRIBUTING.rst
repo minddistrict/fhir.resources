@@ -103,9 +103,9 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
-   https://travis-ci.org/nazrulworld/fhir.resources/pull_requests
-   and make sure that the tests pass for all supported Python versions.
+3. The pull request should work for Python 3.6, 3.7, 3.8, 3.9, 3.10, 3.11.
+   See `tox.ini` for the currently supported Python versions. Note that Python
+   versions 3.6 and 3.7 are declared end of life.
 
 Tips
 ----
